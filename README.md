@@ -34,7 +34,7 @@ Ruta o acceso de representación crítica.
 
 
 
-![dom](/home/alexchip/develop/git/github/alex-chip/platzi/escuela-desarrollo-web/manipulacion-DOM/assets/dom-16fbee89-dab7-4233-9a5c-153e53484fad.webp)
+![dom](./assets/dom-16fbee89-dab7-4233-9a5c-153e53484fad.webp)
 
 
 
