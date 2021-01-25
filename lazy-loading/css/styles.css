@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.feature__images {
+  margin: .8rem 2rem;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.img__container {
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.img {
+  border-radius: .25rem;
+}
+
+.buttons {
+  display: grid;
+  place-items: center;
+  color: #555;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  border: none;
+  font-size: .7rem;
+  cursor: pointer;
+  outline: 0;
+  transition: all .3s;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+}
+
+.button__primary {
+  color: #FFF;
+  border-radius: .25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #8dc83b;
+}
+
+.button__primary:active {
+  transform: scale3d(.9, .9, .9);
+}
+
+.button__secondary {
+  background-color: transparent;
+  color: #8dc83d;
+  text-decoration: underline;
+}
