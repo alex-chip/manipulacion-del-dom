@@ -1,18 +1,17 @@
 import { registerImage } from './lazy'
+import { getRandomInt } from './utils/randomNumber'
 const baseURL = 'https://randomfox.ca/images'
 const app = document.querySelector('#app')
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
 const addImage = () => {
   const imgContainer = document.createElement('article')
   imgContainer.classList.add('img__container')
 
   const image = document.createElement('img')
-  image.src = `${baseURL}/${getRandomInt(1, 122)}.jpg`
+  image.dataset.src = `${baseURL}/${getRandomInt(1, 122)}.jpg`
   image.alt = 'fox'
   image.classList.add('img')
-  registerImage(image)
+  registerImage(imgContainer)
 
   imgContainer.append(image)
   app.append(imgContainer)

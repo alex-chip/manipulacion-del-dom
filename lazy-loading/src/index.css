@@ -43,6 +43,8 @@ a {
 .img__container {
   width: 250px;
   margin-bottom: 1rem;
+  background-color: #555;
+  border-radius: .5rem;
 }
 
 .img {
@@ -52,7 +54,7 @@ a {
 .buttons {
   display: grid;
   place-items: center;
-  color: #555;
+  color: #ccc;
   width: 100%;
 }
 
